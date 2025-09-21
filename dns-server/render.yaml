@@ -1,0 +1,6 @@
+services:
+  - type: private
+    name: adguard-dns
+    env: docker
+    plan: free
+    dockerfilePath: ./dns-server/Dockerfile
