@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: adblock-proxy
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
